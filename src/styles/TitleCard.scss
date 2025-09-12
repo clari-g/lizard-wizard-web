@@ -1,0 +1,15 @@
+.titleCard {
+  background: #fff700;
+  width: fit-content;
+  padding: 10px;
+  font-size: 3rem;
+  box-shadow: -13px -12px 0px 2px #222;
+  filter: drop-shadow(1px 1px 1px #222);
+  cursor: pointer;
+}
+
+@media (max-width: 960px) {
+  .titleCard {
+    font-size: 20pt;
+  }
+}

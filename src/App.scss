@@ -1,0 +1,28 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.warningWindow {
+  width: 50%;
+}
+
+@media (max-width: 960px) {
+  .warningWindow {
+    width: 100%;
+  }
+}
+
+.wave-text {
+  display: inline-block;
+  animation: wave 2s ease-in-out infinite;
+}
+
+@keyframes wave {
+  0%, 100% {
+    transform: translateY(3px) rotate(5deg);
+  }
+  50% {
+    transform: translateY(-3px) rotate(-5deg) scale(0.8);
+  }
+}

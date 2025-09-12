@@ -1,0 +1,23 @@
+.menuItem {
+  font-weight: bold;
+  font-size: 14pt;
+  cursor: pointer;
+  padding: 0.5rem;
+  background: #13dac1; //#00FFFF
+  border-radius: 50px;
+  border: inset 3px #68fdea;
+  text-align: center;
+  width: 20%;
+  margin-bottom: 1rem;
+  filter: drop-shadow(1px 1px 1px #222);
+
+  &:hover {
+    background: #29edd4;
+  }
+}
+
+@media (max-width: 960px) {
+  .menuItem {
+    width: 40%;
+  }
+}
