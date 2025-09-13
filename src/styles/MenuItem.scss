@@ -5,19 +5,33 @@
   padding: 0.5rem;
   background: #13dac1; //#00FFFF
   border-radius: 50px;
-  border: inset 3px #68fdea;
+  border: outset 3px #68fdea;
   text-align: center;
   width: 20%;
   margin-bottom: 1rem;
   filter: drop-shadow(1px 1px 1px #222);
 
+  -webkit-tap-highlight-color: transparent;
+
   &:hover {
     background: #29edd4;
+  }
+  &:active {
+    background: #0fd0b7;
+    border-style: inset;
   }
 }
 
 @media (max-width: 960px) {
   .menuItem {
     width: 40%;
+
+    &:hover {
+      background: #13dac1;
+    }
+    &:active {
+      background: #0fd0b7;
+      border-style: inset;
+    }
   }
 }

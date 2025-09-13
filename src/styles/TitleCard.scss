@@ -6,6 +6,14 @@
   box-shadow: -13px -12px 0px 2px #222;
   filter: drop-shadow(1px 1px 1px #222);
   cursor: pointer;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+    &:focus {
+      outline: none;
+    }
+  }
 }
 
 @media (max-width: 960px) {

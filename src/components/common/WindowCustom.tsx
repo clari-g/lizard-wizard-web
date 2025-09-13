@@ -20,8 +20,8 @@ export const WindowCustom = ({windowClass, titleBarClass, title, btns, children}
         <div className="title-bar-text">{title}</div>
 
         <div className="title-bar-controls">
-          { btns?.map((btn)=>(
-              <button aria-label={btn.name} className={btn.name} disabled={btn.disabled}></button>
+          { btns?.map((btn, i)=>(
+              <button key={i} aria-label={btn.name} className={btn.name} disabled={btn.disabled}></button>
           ))}
         </div>
       </div>
