@@ -12,6 +12,9 @@
   filter: drop-shadow(1px 1px 1px #222);
 
   -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 
   &:hover {
     background: #29edd4;
